@@ -6,8 +6,8 @@ from blind_watermark import WaterMark
 BASE_DIR = Path(__file__).resolve().parent
 
 
-class WaterMarkPlugin(BeforePlugin):
-    name = 'watermark'
+class BlindWaterMarkPlugin(BeforePlugin):
+    name = 'blind-watermark'
 
     def __init__(self, mark: str, **kwargs):
         super().__init__(**kwargs)

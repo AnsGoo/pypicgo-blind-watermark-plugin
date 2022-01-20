@@ -4,7 +4,7 @@ with open('README.rst', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
 setup(
     name='pypicgo-blind-watermark-plugin',
-    version='1.0.0',
+    version='1.0.1',
     keywords=['python', 'pypicgo','blind-watermark', 'watermark'],
     description='blind-watermark for pypicgo',
     long_description=long_description,
