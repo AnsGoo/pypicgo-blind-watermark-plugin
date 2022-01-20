@@ -1,0 +1,9 @@
+[[source]]
+url = "https://pypi.douban.com/simple"
+verify_ssl = false
+name = "pypi"
+
+[packages]
+blind-watermark = "*"
+pywavelets = "*"
+pypicgo = "*"
