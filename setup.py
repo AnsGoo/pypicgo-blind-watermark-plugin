@@ -19,7 +19,7 @@ setup(
     install_requires=[
         'pypicgo>=1.1.0',
         'blind-watermark>=0.3.1',
-        'pywavelets>=1.5.2'
+        'pywavelets>=1.1.0'
     ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
